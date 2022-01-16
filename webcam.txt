@@ -1,3 +1,0 @@
-camera="usb"
-camera_usb_options="-r 720x480 -f 10"
-camera_streamer=mjpeg
