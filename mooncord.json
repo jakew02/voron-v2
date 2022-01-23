@@ -3,9 +3,9 @@
         "moonraker_socket_url": "ws://127.0.0.1/websocket",
         "moonraker_url": "http://127.0.0.1",
         "moonraker_token": "3a7074152ad84e5285baed1c29c9195c",
-        "bot_token": "OTE2MTU4ODk1ODA4OTc0ODQ4.YamFdg.jGBQV_V2faUeB-uh8WaJcapp18Y",
-        "bot_application_key": "c2e3760f33c3bf2ce0efcca7d65cab8ef9048233b50b386fdddd73cf595f9282",
-        "bot_application_id": "916158895808974848"
+        "bot_token": "OTMyMzExNDQ5NTYzNDQ3MzE3.YeRIsw.No66oKj5Fd1FVaqy-EbJzZvb4Do",
+        "bot_application_key": "6015f7c31172bf6143642274a3c90585dfd5dc5f4e9719d2eabdd3d1932828c6",
+        "bot_application_id": "932311449563447317"
     },
     "status": {
         "update_interval": 10,
@@ -27,19 +27,30 @@
         "command_syntax": "en"
     },
     "permission": {
-        "controller": [
-            "504391971314597889"
-        ],
-        "guild_admin_as_bot_admin": true
+        "controllers": {
+            "users": "504391971314597889"
+        },
+        "botadmins": {
+            "_comment": "this Section is managed by the /admin command",
+            "users": [
+                "504391971314597889"
+            ],
+            "roles": []
+        }
+    },
+    "admin": {
+        "users": [
+            504391971314597900
+        ]
     },
     "webcam": {
-        "url": "http://127.0.0.1/webcam/?action=snapshot",
-        "quality": 80,
+        "url": "http://127.0.0.1/webcam2/?action=snapshot",
+        "quality": 100,
         "rotation": 0,
         "brightness": 0,
         "contrast": 0,
-        "vertical_mirror": false,
-        "horizontal_mirror": false,
+        "vertical_mirror": true,
+        "horizontal_mirror": true,
         "greyscale": false,
         "sepia": false
     },
